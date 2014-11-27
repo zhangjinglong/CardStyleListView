@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#e2e4fe"><!-- 此处需设置listView背景 -->
+
+	<ListView
+		android:id="@+id/card_listView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:listSelector="@android:color/transparent"
+		android:cacheColorHint="@android:color/transparent"
+		android:divider="@null"
+		android:dividerHeight="10dp" /><!-- 一定要讲divider设置为@null,dividerHeight控制卡片上下距离 -->
+</LinearLayout>
